@@ -2,16 +2,22 @@
   "name": "nodejs-task",
   "version": "1.0.0",
   "description": "ExpressJS task",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Darius R",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
     "express-validator": "^6.14.0",
-    "node-fetch": "^3.2.0",
+    "node-fetch": "^2.6.7",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
